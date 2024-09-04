@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 150px;
     background-color: #f0ece5;
     color: #333;
 }
@@ -46,21 +47,6 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-}
-
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
-    background-color: #e8e3dc;
-}
-
-.imageHero {
-    width: 300px;
-    max-width: 100%;
-    display: flex;
 }
 
 .btn-info {
@@ -200,6 +186,12 @@ footer .social-media a:hover {
     color: #007bff;
 }
 
+.imageHome {
+    width: 300px;
+    max-width: 100%;
+    display: flexbox;
+}
+
 @media (max-width: 600px) {
     .cards {
         flex-direction: column;
@@ -214,6 +206,7 @@ footer .social-media a:hover {
     .hero {
         flex-direction: column;
         text-align: center;
+        padding-top: 20px;
     }
 
     .btn-info {
@@ -232,12 +225,25 @@ footer .social-media a:hover {
         align-items: center; /* Centra los elementos horizontalmente */
         padding-top: 20px;
     }
+    .home-two-columns {
+        display: flex;
+        flex-direction: column; /* Coloca los elementos uno debajo del otro */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding-top: 20px;
+    }
     .footerSocialMedia{
         padding-top: 20px;
     }
 }
 
 .two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Ajusta el padding según sea necesario */
+}
+
+.home-two-columns{
     display: flex;
     justify-content: space-between;
     align-items: center;
