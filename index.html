@@ -13,34 +13,39 @@
     <title>Connex Landing Page</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
-<body>
-    <navbar class="navbar">
-        <div class="navbarBtn">
-            <img src="assets/img/logo-black.svg" alt="Logo-image" class="navbarLogo">
+
+<header>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="assets/img/logo-black.svg" alt="Logo" class="logo">
         </div>
-        <ul class="navbarLinks">
-            <li id="link1" class="navbarElementItem"><a href="#home">Home</a></li>
-            <li id="link2" class="navbarElementItem"><a href="#aboutus">About Us</a></li>
-            <li id="link3" class="navbarElementItem"><a href="#services">Services</a></li>
-            <li id="link4" class="navbarElementItem"><a href="#contactus">Contact Us</a></li>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <ul class="navbar-links" id="navbar-links">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#aboutus">About Us</a></li>
+            <li class="nav-item"><a href="#services">Services</a></li>
+            <li class="nav-item"><a href="#contactus">Contact Us</a></li>
         </ul>
-    </navbar>
-    <header>
-        <section class="hero" id="home">
-            <div class="home">
-                <img src="assets/img/logo-color.svg" class="imageHero">
-                <div class="btn-info">
-                    <h3>Connex</h3>
-                    <p>Connex is a platform created to facilitate and
-                        optimize the connection between companies and influencers,
-                        allowing both to find strategic partners efficiently.
-                        The platform offers tools that simplify the process of identifying,
-                        selecting and managing collaborations between brands and influencers.</p>
-                    <a target="_blank" href=""><button class="btn">Suscribe Now!</button></a>
-                </div>
+    </nav>
+    <script src="assets/js/navbarscript.js"></script>
+</header>
+
+
+<body>     
+    <section class="hero" id="home">
+        <div class="home">
+            <img src="assets/img/logo-color.svg" class="imageHero">
+            <div class="btn-info">
+                <h3>Connex</h3>
+                <p>Connex is a platform created to facilitate and
+                    optimize the connection between companies and influencers,
+                    allowing both to find strategic partners efficiently.
+                    The platform offers tools that simplify the process of identifying,
+                    selecting and managing collaborations between brands and influencers.</p>
+                <a target="_blank" href=""><button class="btn">Suscribe Now!</button></a>
             </div>
-        </section>
-    </header>
+        </div>
+    </section>
     <section id="aboutus">
         <h1 class="title">InnovaTech</h1>
         <section class="cards">
@@ -111,11 +116,11 @@
         </div>
 
         <div class="two-columns">
-            <ul class="navbarLinks">
-                <li id="link1" class="navbarElementItem"><a href="#home">Home</a></li>
-                <li id="link2" class="navbarElementItem"><a href="#aboutus">About Us</a></li>
-                <li id="link3" class="navbarElementItem"><a href="#services">Services</a></li>
-                <li id="link4" class="navbarElementItem"><a href="#contactus">Contact Us</a></li>
+            <ul class="navbarLinks_footer">
+                <li id="link1" class="navbarElementItem_footer"><a href="#home">Home</a></li>
+                <li id="link2" class="navbarElementItem_footer"><a href="#aboutus">About Us</a></li>
+                <li id="link3" class="navbarElementItem_footer"><a href="#services">Services</a></li>
+                <li id="link4" class="navbarElementItem_footer"><a href="#contactus">Contact Us</a></li>
             </ul>
             <ul class="footerSocialMedia">
                 <li>
