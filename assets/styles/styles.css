@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
     background-color: #f0ece5;
     color: #333;
 }
@@ -29,12 +30,13 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0;    
 }
 
 .footerSocialMediaLogo {
+    display: flex;
     width: 50px;
-    padding: 0 2px;
+    padding: 0 2px;    
 }
 
 
@@ -46,21 +48,6 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-}
-
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
-    background-color: #e8e3dc;
-}
-
-.imageHero {
-    width: 300px;
-    max-width: 100%;
-    display: flex;
 }
 
 .btn-info {
@@ -132,15 +119,54 @@ body {
     margin-bottom: 15px;
 }
 
+.cards-SocialMedia {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.cardSocialMedia {    
+    border-radius: 10px;        
+    width: max-content;     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cardSocialMedia a{       
+    width: max-content;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */  
+}
+
+.cardSocialMedia a img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
 .textBackground {
     margin-top: 10px;
     font-size: 1rem;
     color: #333;
     text-align: center;
 }
+#home {
+    background-color: #e8e3dc;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+}
 
 #services {
     background-color: #e8e3dc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contactus {    
     padding: 50px 0;
     text-align: center;
 }
@@ -200,6 +226,12 @@ footer .social-media a:hover {
     color: #007bff;
 }
 
+.imageHome {
+    width: 300px;
+    max-width: 100%;
+    display: flexbox;
+}
+
 @media (max-width: 600px) {
     .cards {
         flex-direction: column;
@@ -210,10 +242,15 @@ footer .social-media a:hover {
         width: 80%;
         margin-bottom: 20px;
     }
+    .cardSocialMedia {
+        display: flex;        
+        margin-bottom: 20px;
+    }
 
     .hero {
         flex-direction: column;
         text-align: center;
+        padding-top: 20px;
     }
 
     .btn-info {
@@ -232,12 +269,25 @@ footer .social-media a:hover {
         align-items: center; /* Centra los elementos horizontalmente */
         padding-top: 20px;
     }
+    .home-two-columns {
+        display: flex;
+        flex-direction: column; /* Coloca los elementos uno debajo del otro */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding-top: 20px;
+    }
     .footerSocialMedia{
         padding-top: 20px;
     }
 }
 
 .two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Ajusta el padding según sea necesario */
+}
+
+.home-two-columns{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -348,4 +398,9 @@ footer .social-media a:hover {
         width: 100%;
         font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
     }
+}
+
+.contactusbox{
+    background-color: rgb(205,194,165);
+    border-radius: 20px;
 }
