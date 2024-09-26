@@ -8,35 +8,35 @@
     <meta name="keywords" content="UX, Digital Transformation, APPS, Landing Page, Software Development">
     <meta name="author" content="Connex">
 
-
     <link rel="icon" type="image/x-icon" href="assets/img/logo-black.svg">
     <title>Connex Landing Page</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 
-<header>
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <img src="assets/img/logo-black.svg" alt="Logo" class="logo">
-        </div>
-        <div class="menu-icon" id="menu-icon">&#9776;</div>
-        <ul class="navbar-links" id="navbar-links">
-            <li class="nav-item"><a href="#home">Home</a></li>
-            <li class="nav-item"><a href="#aboutus">About Us</a></li>
-            <li class="nav-item"><a href="#services">Services</a></li>
-            <li class="nav-item"><a href="#contactus">Contact Us</a></li>
-        </ul>
-    </nav>
-    <script src="assets/js/navbarscript.js"></script>
-</header>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="navbar-logo">
+                <img src="assets/img/logo-black.svg" alt="Connex Logo" class="logo">
+            </div>
+            <div class="menu-icon" id="menu-icon" aria-label="Menu">&#9776;</div>
+            <ul class="navbar-links" id="navbar-links">
+                <li class="nav-item"><a href="#home" aria-label="Home">Home</a></li>
+                <li class="nav-item"><a href="#aboutus" aria-label="About Us">About Us</a></li>
+                <li class="nav-item"><a href="#services" aria-label="Services">Services</a></li>
+                <li class="nav-item"><a href="#contactus" aria-label="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <script src="assets/js/navbarscript.js"></script>
+    </header>
 
-
-<body>     
-    <section id="home">
+    <!-- Home Section -->
+    <section id="home" aria-label="Home Section">
         <div class="home-two-columns container">
             <div class="container">
-                <img src="assets/img/logo-color.svg" class="imageHome">
-            </div>            
+                <img src="assets/img/logo-color.svg" class="imageHome" alt="Connex Logo Color">
+            </div>
             <div class="btn-info">
                 <h3>Connex</h3>
                 <p>Connex is a platform created to facilitate and
@@ -44,47 +44,49 @@
                     allowing both to find strategic partners efficiently.
                     The platform offers tools that simplify the process of identifying,
                     selecting and managing collaborations between brands and influencers.</p>
-                <a target="_blank" href=""><button class="btn">Suscribe Now!</button></a>
+                <a target="_blank" href=""><button class="btn" aria-label="Subscribe Now">Subscribe Now!</button></a>
             </div>
         </div>
     </section>
-    <section id="aboutus">
+
+    <!-- About Us Section -->
+    <section id="aboutus" aria-label="About Us Section">
         <h1 class="title">InnovaTech</h1>
-        <section class="cards">
-            <div class="card">
-                <img src="assets/img/Sebastian%20Escobar%20Palomino.png">
+        <section class="cards" aria-label="Team Members">
+            <div class="card" aria-label="Sebastian Escobar">
+                <img src="assets/img/Sebastian%20Escobar%20Palomino.png" alt="Sebastian Escobar">
                 <div class="text">
                     <h2 class="textBackground">Sebastian Escobar</h2>
                     <p class="textBackground">Passionate about artificial intelligence and backend development.
                         Always looking to optimize processes and improve software efficiency.</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="assets/img/MathiasJM.jpg">
+            <div class="card" aria-label="Mathias Javier">
+                <img src="assets/img/MathiasJM.jpg" alt="Mathias Javier">
                 <div class="text">
                     <h2 class="textBackground">Mathias Javier</h2>
                     <p class="textBackground">Team leader with project management skills.
                         Encourages collaboration and is always ready to solve problems and overcome challenges.</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="assets/img/IanMQ.png">
+            <div class="card" aria-label="Ian Macavilca">
+                <img src="assets/img/IanMQ.png" alt="Ian Macavilca">
                 <div class="text">
                     <h2 class="textBackground">Ian Macavilca</h2>
                     <p class="textBackground">Mobile development enthusiast and clean code advocate.
                         Dedicated to building robust and maintainable applications.</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="assets/img/MarcoN.png">
+            <div class="card" aria-label="Marco Nakasone">
+                <img src="assets/img/MarcoN.png" alt="Marco Nakasone">
                 <div class="text">
                     <h2 class="textBackground">Marco Nakasone</h2>
                     <p class="textBackground">Expert in databases and computer security.
                         He has a strong interest in data protection and ensuring the integrity of information.</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="assets/img/JorgeLH.png">
+            <div class="card" aria-label="Jorge Laban">
+                <img src="assets/img/JorgeLH.png" alt="Jorge Laban">
                 <div class="text">
                     <h2 class="textBackground">Jorge Laban</h2>
                     <p class="textBackground">Front-end specialist with a keen eye for design.
@@ -93,99 +95,103 @@
             </div>
         </section>
     </section>
-    <section id="services">
+
+    <!-- Services Section -->
+    <section id="services" aria-label="Services Section">
         <h2 class="sectionTitle">For you</h2>
-        <div class="filters">
-            <img src="assets/img/fy1.png">
+        <div class="filters" aria-label="Advanced search and filtering of influencers">
+            <img src="assets/img/fy1.png" alt="Advanced search and filtering of influencers">
             <h2>Advanced search and<br>filtering of influencers</h2>
         </div>
-        <div class="filters">
-            <img src="assets/img/fy2.png">
+        <div class="filters" aria-label="Campaign performance analysis">
+            <img src="assets/img/fy2.png" alt="Campaign performance analysis">
             <h2>Campaign performance<br> analysis</h2>
         </div>
-        <div class="filters">
-            <img src="assets/img/fy3.png">
+        <div class="filters" aria-label="Campaign management and partnership tracking">
+            <img src="assets/img/fy3.png" alt="Campaign management and partnership tracking">
             <h2>Campaign management<br>and partnership tracking</h2>
         </div>
     </section>
-    <section id="contactus">
+
+    <!-- Contact Us Section -->
+    <section id="contactus" aria-label="Contact Us Section">
         <h2 class="sectionTitle">Contact us!</h2>
         <div class="container contactusbox">
-            <h3>+51 988874222</h2>
-            <h3>connex@innovatech_peru.com</h2>
-            <h3>Calle General Moscol 200, Chorrillos, Lima</h2>
-            <h3>Our Social Media</h2>
+            <h3>+51 988874222</h3>
+            <h3>connex@innovatech_peru.com</h3>
+            <h3>Calle General Moscol 200, Chorrillos, Lima</h3>
+            <h3>Our Social Media</h3>
             <div class="container">
-                <ul class="cards-SocialMedia ">
-                    <li class="cardSocialMedia">
-                        <a href="https://www.facebook.com" target="_blank">
-                            <img src="assets/img/fb.png" alt="Facebook">                            
+                <ul class="cards-SocialMedia">
+                    <li class="cardSocialMedia" aria-label="Facebook">
+                        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                            <img src="assets/img/fb.png" alt="Facebook">
                         </a>
                         <h2>Facebook</h2>
                     </li>
-                    <li class="cardSocialMedia">
-                        <a href="https://www.instagram.com" target="_blank">
-                            <img src="assets/img/ig.png">                            
+                    <li class="cardSocialMedia" aria-label="Instagram">
+                        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                            <img src="assets/img/ig.png" alt="Instagram">
                         </a>
-                        <h2>instagram</h2>
+                        <h2>Instagram</h2>
                     </li>
-                    <li class="cardSocialMedia">
-                        <a href="https://www.x.com" target="_blank">
-                            <img src="assets/img/twitter.png">                            
+                    <li class="cardSocialMedia" aria-label="X">
+                        <a href="https://www.x.com" target="_blank" aria-label="X">
+                            <img src="assets/img/twitter.png" alt="X">
                         </a>
-                        <h2>x</h2>
+                        <h2>X</h2>
                     </li>
-                    <li class="cardSocialMedia">
-                        <a href="https://www.linkedin.com" target="_blank">
-                            <img src="assets/img/linkedin.png">                            
+                    <li class="cardSocialMedia" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <img src="assets/img/linkedin.png" alt="LinkedIn">
                         </a>
-                        <h2>linkedin</h2>
-                    </li>                                
-                </ul>     
+                        <h2>LinkedIn</h2>
+                    </li>
+                </ul>
             </div>
-                     
         </div>
     </section>
 </body>
+
+<!-- Footer -->
 <footer>
     <div>
         <div class="three-columns">
             <h3>&copy; 2024 Closed Source</h3>
             <h3>Connex</h3>
-            <h3>Gmail: connex@innovatech_peru.com</h3>            
+            <h3>Gmail: connex@innovatech_peru.com</h3>
         </div>
 
         <div class="two-columns">
             <ul class="navbarLinks_footer">
-                <li id="link1" class="navbarElementItem_footer"><a href="#home">Home</a></li>
-                <li id="link2" class="navbarElementItem_footer"><a href="#aboutus">About Us</a></li>
-                <li id="link3" class="navbarElementItem_footer"><a href="#services">Services</a></li>
-                <li id="link4" class="navbarElementItem_footer"><a href="#contactus">Contact Us</a></li>
+                <li id="link1" class="navbarElementItem_footer"><a href="#home" aria-label="Home">Home</a></li>
+                <li id="link2" class="navbarElementItem_footer"><a href="#aboutus" aria-label="About Us">About Us</a></li>
+                <li id="link3" class="navbarElementItem_footer"><a href="#services" aria-label="Services">Services</a></li>
+                <li id="link4" class="navbarElementItem_footer"><a href="#contactus" aria-label="Contact Us">Contact Us</a></li>
             </ul>
             <ul class="footerSocialMedia">
                 <li>
-                    <a href="https://www.facebook.com" target="_blank">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
                         <img class="footerSocialMediaLogo" src="assets/img/fb.png" alt="Facebook">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <img class="footerSocialMediaLogo" src="assets/img/ig.png">
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <img class="footerSocialMediaLogo" src="assets/img/ig.png" alt="Instagram">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.x.com" target="_blank">
-                        <img class="footerSocialMediaLogo" src="assets/img/twitter.png">
+                    <a href="https://www.x.com" target="_blank" aria-label="X">
+                        <img class="footerSocialMediaLogo" src="assets/img/twitter.png" alt="X">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com" target="_blank">
-                        <img class="footerSocialMediaLogo" src="assets/img/linkedin.png">
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <img class="footerSocialMediaLogo" src="assets/img/linkedin.png" alt="LinkedIn">
                     </a>
-                </li>                                
-            </ul>            
+                </li>
+            </ul>
         </div>
-
     </div>
 </footer>
 </html>
