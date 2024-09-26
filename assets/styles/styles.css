@@ -404,3 +404,68 @@ footer .social-media a:hover {
     background-color: rgb(205,194,165);
     border-radius: 20px;
 }
+
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.call-to-action h2 {
+    margin-bottom: 10px;
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+
+.call-to-action form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.call-to-action input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.call-to-action button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00334e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-to-action button:hover {
+    background-color: #005580;
+}
+
+.additional-cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.additional-cta .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00334e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.additional-cta .btn:hover {
+    background-color: #005580;
+}
